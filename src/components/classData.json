@@ -1,0 +1,483 @@
+{
+    "barbarian": {
+        "hitDice": "d12",
+        "proficiencies": {
+            "armor": [
+                "Light Armor",
+                "Medium Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Martial Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Strength",
+            "Constitution"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Animal Handling",
+            "Athletics",
+            "Intimidation",
+            "Nature",
+            "Perception",
+            "Survival"
+        ],
+        "equipment": [
+            "(a) a greataxe or (b) any martial melee weapon",
+            "(a) two handaxes or (b) any simple weapon",
+            "An explorer's pack and four javelins"
+        ],
+        "traits": [
+            "Unarmored Defense"
+        ] 
+    },
+    "bard": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "Light Armor"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Hand Crossbows",
+                "Longswords",
+                "Rapiers",
+                "Shortswords"
+            ],
+            "tools": [
+                "Three musical instruments of your choice"
+            ]
+        },
+        "savingThrows": [
+            "Dexterity",
+            "Charisma"
+        ],
+        "skillNumber": 3,
+        "skillProf": [
+            "Choose any three"
+        ],
+        "equipment": [
+            "(a) a rapier, (b) a longsword, or (c) any simple weapon",
+            "(a) a diplomat's pack or (b) an entertainer's pack",
+            "(a) a lute or (b) any other musical instrument",
+            "Leather armor and a dagger"
+        ],
+        "traits": [
+            "Bardic Inspiration"
+        ]
+    },
+    "cleric": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "Light Armor",
+                "Medium Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Simple Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Wisdom",
+            "Charisma"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "History",
+            "Insight",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+        ],
+        "equipment": [
+            "(a) a mace or (b) a warhammer (if proficient)",
+            "(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)",
+            "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+            "(a) a priest's mask or (b) an explorer's pack",
+            "A shield and a holy symbol"
+        ],
+        "traits": [
+            "Divine Domain"
+        ]
+    },
+    "druid": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "Light Armor",
+                "Medium Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Clubs",
+                "Daggers",
+                "Darts",
+                "Javelins",
+                "Maces",
+                "Quarterstaffs",
+                "Scimitars",
+                "Sickles",
+                "Slings",
+                "Spears"
+            ],
+            "tools": [
+                "Herbalism Kit"
+            ]
+        },
+        "savingThrows": [
+            "Intelligence",
+            "Wisdom"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Arcana",
+            "Animal Handling",
+            "Insight",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Religion",
+            "Survival"
+        ],
+        "equipment": [
+            "(a) a wooden shield or (b) any simple weapon",
+            "(a) a scimitar or (b) any simple melee weapon",
+            "Leather armor, an explorer's pack, and a druidic focus"
+        ],
+        "traits": [
+            "Druidic"
+        ]
+    },
+    "fighter": {
+        "hitDice": "d10",
+        "proficiencies": {
+            "armor": [
+                "All Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Martial Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Strength",
+            "Constitution"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
+            "Insight",
+            "Intimidation",
+            "Perception",
+            "Survival"
+        ],
+        "equipment": [
+            "(a) chain mail or (b) leather armor, longbow, and 20 arrows",
+            "(a) a martial weapon and a shield or (b) two martial weapons",
+            "(a) a light crossbow and 20 bolts or (b) two handaxes",
+            "(a) a dungeoneer's pack or (b) an explorer's pack"
+        ],
+        "traits": [
+            "Second Wind"
+        ]
+    },
+    "monk": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "No Armor Proficiencies"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Shortswords"
+            ],
+            "tools": [
+                "Choose one type of artisan's tools or one musical instrument"
+            ]
+        },
+        "savingThrows": [
+            "Strength",
+            "Dexterity"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Acrobatics",
+            "Athletics",
+            "History",
+            "Insight",
+            "Religion",
+            "Stealth"
+        ],
+        "equipment": [
+            "(a) a shortsword or (b) any simple weapon",
+            "(a) a dungeoneer's pack or (b) an explorer's pack",
+            "10 darts"
+        ],
+        "traits": [
+            "Unarmored Defense",
+            "Martial Arts"
+        ]
+    },
+    "paladin": {
+        "hitDice": "d10",
+        "proficiencies": {
+            "armor": [
+                "All Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Martial Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Wisdom",
+            "Charisma"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Athletics",
+            "Insight",
+            "Intimidation",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+        ],
+        "equipment": [
+            "(a) a martial weapon and a shield or (b) two martial weapons",
+            "(a) five javelins or (b) any simple melee weapon",
+            "(a) a priest's pack or (b) an explorer's pack",
+            "Chain mail and a holy symbol"
+        ],
+        "traits": [
+            "Divine Sense",
+            "Lay on Hands"
+        ]
+    },
+    "ranger": {
+        "hitDice": "d10",
+        "proficiencies": {
+            "armor": [
+                "Light Armor",
+                "Medium Armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Martial Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Strength",
+            "Dexterity"
+        ],
+        "skillNumber": 3,
+        "skillProf": [
+            "Animal Handling",
+            "Athletics",
+            "Insight",
+            "Investigation",
+            "Nature",
+            "Perception",
+            "Stealth",
+            "Survival"
+        ],
+        "equipment": [
+            "(a) scale mail or (b) leather armor",
+            "(a) two shortswords or (b) two simple melee weapons",
+            "(a) a dungeoneer's pack or (b) an explorer's pack",
+            "A longbow and a quiver of 20 arrows"
+        ],
+        "traits": [
+            "Favored Enemy",
+            "Natural Explorer"
+        ]
+    },
+    "rogue": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "Light Armor"
+            ],
+            "weapons": [
+                "Simple Weapons",
+                "Hand Crossbows",
+                "Longswords",
+                "Rapiers",
+                "Shortswords"
+            ],
+            "tools": [
+                "Thieves' Tools"
+            ]
+        },
+        "savingThrows": [
+            "Dexterity",
+            "Intelligence"
+        ],
+        "skillNumber": 4,
+        "skillProf": [
+            "Acrobatics",
+            "Athletics",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Sleight of Hand",
+            "Stealth"
+        ],
+        "equipment": [
+            "(a) a rapier or (b) a shortsword",
+            "(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
+            "(a) a burgalar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack",
+            "Leather armor, two daggers, and thieves' tools"
+        ],
+        "traits": [
+            "Expertise",
+            "Sneak Attack",
+            "Thieves' Cant"
+        ]
+    },
+    "sorcerer": {
+        "hitDice": "d6",
+        "proficiencies": {
+            "armor": [
+                "No Armor Proficiencies"
+            ],
+            "weapons": [
+                "Daggers",
+                "Darts",
+                "Slings",
+                "Quarterstaffs",
+                "Light Crossbows"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Constitution",
+            "Charisma"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Arcana",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Persuasion",
+            "Religion"
+        ],
+        "equipment": [
+            "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a dungeoneer's pack or (b) an explorer's pack",
+            "Two daggers"
+        ],
+        "traits": [
+            "Sorcerous Origin"
+        ]
+    },
+    "warlock": {
+        "hitDice": "d8",
+        "proficiencies": {
+            "armor": [
+                "Light Armor"
+            ],
+            "weapons": [
+                "Simple Weapons"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Wisdom",
+            "Charisma"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Arcana",
+            "Deception",
+            "History",
+            "Intimidation",
+            "Investigation",
+            "Nature",
+            "Religion"
+        ],
+        "equipment": [
+            "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a scholar's pack or (b) a dungeoneer's pack",
+            "Leather armor, any simple weapon, and two daggers"
+        ],
+        "traits": [
+            "Otherworldly Patron"
+        ]
+    },
+    "wizard": {
+        "hitDice": "d6",
+        "proficiencies": {
+            "armor": [
+                "No Armor Proficiencies"
+            ],
+            "weapons": [
+                "Daggers",
+                "Darts",
+                "Slings",
+                "Quarterstaffs",
+                "Light Crossbows"
+            ],
+            "tools": [
+                "No Tool Proficiencies"
+            ]
+        },
+        "savingThrows": [
+            "Intelligence",
+            "Wisdom"
+        ],
+        "skillNumber": 2,
+        "skillProf": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+        ],
+        "equipment": [
+            "(a) a quarterstaff or (b) a dagger",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a scholar's pack or (b) an explorer's pack",
+            "A spellbook"
+        ],
+        "traits": [
+            "Arcane Recovery"
+        ]
+    }
+}

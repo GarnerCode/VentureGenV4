@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+
+import Form from './components/Form';
+import CharSheet from './components/CharSheet';
 
 function App() {
+
+  const [charLevel, setCharLevel] = useState(1);
+  const [charRace, setCharRace] = useState("Dragonborn");
+  const [charClass, setCharClass] = useState("Barbarian");
+  const [toggleCharSheet, setToggleCharSheet] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <header>
+      <h1>VentureGen</h1>
+      <p>Dungeons & Dragons character creation made quick and easy!</p>
+    </header>
+      <Form
+        charLevel={charLevel}
+        setCharLevel={setCharLevel}
+        charRace={charRace}
+        setCharRace={setCharRace}
+        charClass={charClass}
+        setCharClass={setCharClass}
+        setToggleCharSheet={setToggleCharSheet}
+      />
+      {toggleCharSheet ? 
+      <CharSheet 
+        charLevel={charLevel}
+        charRace={charRace}
+        charClass={charClass}
+      /> 
+      : 
+      null}
     </div>
   );
 }
