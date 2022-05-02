@@ -1,1 +1,52 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@media screen and (min-width: 0px) {
+  body {
+    background-color: #E0E0E0;
+    color: #252525;
+    padding: 0 1em;
+  }
+  header {
+    text-align: center;
+  }
+  hr {
+    border: 1px solid #cecece;
+  }
+  h1, h2, h3 {
+    text-align: center;
+  }
+  select, input {
+    display: block;
+    margin: 1em auto;
+    width: 10em;
+  }
+  .input-submit {
+    padding: 1em;
+    cursor: pointer;
+  }
+  .capital {
+    text-transform: capitalize;
+  }
+  .charMain {
+    text-align: center;
+  }
+  .charMiscStats {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    text-align: center;
+  }
+  .charMiscStats h2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    text-decoration: underline;
+  }
+  .charMiscStats p {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+}
+/*# sourceMappingURL=App.css.map */

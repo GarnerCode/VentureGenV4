@@ -71,7 +71,7 @@
             "Gnomish"
         ]
     },
-    "halfelf": {
+    "half-Elf": {
         "str": 0,
         "dex": 0,
         "con": 0,
@@ -108,7 +108,7 @@
             "Halfling"
         ]
     },
-    "halforc": {
+    "half-Orc": {
         "str": 2,
         "dex": 0,
         "con": 1,

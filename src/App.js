@@ -15,7 +15,7 @@ function App() {
     <div className="App">
     <header>
       <h1>VentureGen</h1>
-      <p>Dungeons & Dragons character creation made quick and easy!</p>
+      <p>Dungeons & Dragons character creation made easy!</p>
     </header>
       <Form
         charLevel={charLevel}

@@ -24,9 +24,9 @@ const Form = ({charLevel, setCharLevel, charRace, setCharRace, charClass, setCha
             <option value="dwarf">Dwarf</option>
             <option value="elf">Elf</option>
             <option value="gnome">Gnome</option>
-            <option value="halfelf">Half-Elf</option>
+            <option value="half-Elf">Half-Elf</option>
             <option value="halfling">Halfling</option>
-            <option value="halforc">Half-Orc</option>
+            <option value="half-Orc">Half-Orc</option>
             <option value="human">Human</option>
             <option value="tiefling">Tiefling</option>
         </select>
@@ -44,7 +44,7 @@ const Form = ({charLevel, setCharLevel, charRace, setCharRace, charClass, setCha
             <option value="warlock">Warlock</option>
             <option value="wizard">Wizard</option>
         </select>
-        <input type="submit" value="Generate" />
+        <input className="input-submit" type="submit" value="Generate" />
     </form>
   );
 }

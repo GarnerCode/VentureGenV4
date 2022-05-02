@@ -1,0 +1,51 @@
+// Color Palette
+$colorWhite: #E0E0E0;
+$colorAltWhite: #cecece;
+$colorBlack: #252525;
+
+@media screen and (min-width: 0px) {
+    body {
+        background-color: $colorWhite;
+        color: $colorBlack;
+        padding: 0 1em;
+    }
+    header {
+        text-align: center;
+    }
+    hr {
+        border: 1px solid $colorAltWhite;
+    }
+    h1, h2, h3 {
+        text-align: center;
+    }
+    // Form
+    select, input {
+        display: block;
+        margin: 1em auto;
+        width: 10em;
+    }
+    .input-submit {
+        padding: 1em;
+        cursor: pointer;
+    }
+    // Character Sheet
+    .capital {
+        text-transform: capitalize;
+    }
+    .charMain {
+        text-align: center;
+    }
+    .charMiscStats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        h2 {
+            grid-row: 1/2;
+            text-decoration: underline;
+        }
+        p {
+            grid-row: 2/3;
+        }
+    }
+}
