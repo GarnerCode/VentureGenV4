@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VentureGenV4/static/css/main.ad6521ee.css",
+    "main.js": "/VentureGenV4/static/js/main.2ffdb88f.js",
+    "static/js/787.1916d0a7.chunk.js": "/VentureGenV4/static/js/787.1916d0a7.chunk.js",
+    "index.html": "/VentureGenV4/index.html",
+    "main.ad6521ee.css.map": "/VentureGenV4/static/css/main.ad6521ee.css.map",
+    "main.2ffdb88f.js.map": "/VentureGenV4/static/js/main.2ffdb88f.js.map",
+    "787.1916d0a7.chunk.js.map": "/VentureGenV4/static/js/787.1916d0a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad6521ee.css",
+    "static/js/main.2ffdb88f.js"
+  ]
+}
